@@ -66,6 +66,6 @@ The result is an array containing [2,4,6].  Each iteration of the loop waits for
 >1 \
 >4 \
 >3 \
->2 \
+>2 
 
 
