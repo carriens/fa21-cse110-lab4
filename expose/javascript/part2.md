@@ -63,9 +63,9 @@
 The result is an array containing [2,4,6].  Each iteration of the loop waits for the callback function doSomething to execute and then pushes the result into the array newArr.
 
 *Question 18*
->1
->4
->3
->2
+>1 \
+>4 \
+>3 \
+>2 \
 
 
