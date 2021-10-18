@@ -38,6 +38,34 @@
 4. D. student["Favorite Teacher"].name
 5. E. student.courseLoad[0]
 
+*Question 13*
+1. A. >32 because integers map to their exact string representation in addition
+2. B. >1 because the string '3' is converted to a number and read from the string
+3. C. >3 because null is interpreted as zero
+4. D. >3null because adding a number and a string will always return a string
+5. E. >4 because true is interpreted as a 1 in addition
+6. F. >0 because both false and null are interpreted as 0 in addition
+7. G. >3undefined because string conversion changes undefined to 'undefined'
+8. H. >NaN because in numberic conversion the undefined primitive type is interpreted as not a number
 
+*Question 14*
+1. A. >true because when values of different types are compared they are treated as numbers
+2. B. >false because when strings are compared, they are compared letter-by-letter in dictionary order and 1 comes before 2
+3. C. >true because when values of different types are compared they are treated as numbers
+4. D. >false because when checking strict equality, if operands are of different type the result is always false
+5. E. >false because when values of different types are compared they are treated as numbers, and true is interpreted as 1
+6. F. >true because the boolean value of 2 is true
+   
+*Question 15*
+'===' is the strict equality operator.  It checks equality without type conversion.  While '==' will try to convert the operands before comparison, '===' will not.
+
+*Question 17*
+The result is an array containing [2,4,6].  Each iteration of the loop waits for the callback function doSomething to execute and then pushes the result into the array newArr.
+
+*Question 18*
+\>1
+\>4
+\>3
+\>2
 
 

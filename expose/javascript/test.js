@@ -1,10 +1,8 @@
-let student = {
-    name: 'Cade',
-    'Favorite Teacher': {
-        name: 'Deb',
-    },
-
-    courseLoad: ['a', 'b', 'c'],
+function printNums() {
+    console.log(1);
+    setTimeout(function() {console.log(2); }, 1000);
+    setTimeout(function() {console.log(3); }, 0);
+    console.log(4);
 }
 
-console.log(student.courseLoad[2])
+printNums();
