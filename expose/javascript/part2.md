@@ -21,12 +21,12 @@
 *Question 11* => Returns the correct array of discounted prices [50, 100, 150].
 
 *Question 12* => 
-    A. student.name
-    B. student["Grad Year"]
-    C. student.greeting()
-    D. student["Favorite Teacher"].name
-    E. student.courseLoad[0]
+    1. A. student.name
+    2. B. student["Grad Year"]
+    3. C. student.greeting()
+    4. D. student["Favorite Teacher"].name
+    5. E. student.courseLoad[0]
 
-    
+
 
 
